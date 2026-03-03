@@ -10,7 +10,7 @@ namespace CyberBotSecurity
     {
         public void ProcessMessage(string username, string message)
         {
-            if (message.Contains("hello", StringComparison.OrdinalIgnoreCase) || message.Contains("hi", StringComparison.OrdinalIgnoreCase)
+            if (message.Contains("hello", StringComparison.OrdinalIgnoreCase)
                  || message.Contains("how are you", StringComparison.OrdinalIgnoreCase) || message.Contains("purpose", StringComparison.OrdinalIgnoreCase))
             {
                 Greeting greeting = new Greeting();
