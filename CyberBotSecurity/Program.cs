@@ -1,6 +1,8 @@
 ﻿using CyberBotSecurity;
 
 Console.WriteLine("Welcome to CyberBot Security!");
+ImageLoader imageLoader = new ImageLoader();
+imageLoader.Show();
 Console.Write("Please enter your name:");
 var userName = Console.ReadLine();
 Console.WriteLine($"Hello, {userName}! Let's get started with securing your cyber environment.");
