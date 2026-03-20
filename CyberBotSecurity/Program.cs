@@ -7,7 +7,7 @@ Console.Write("Please enter your name:");
 var userName = Console.ReadLine();
 Console.WriteLine($"Hello, {userName}! Let's get started with securing your cyber environment.");
 
-//var chatbot = new ChatbotLogic();
+var chatbot = new ChatbotLogic();
 var userMessage = "";
 
 
