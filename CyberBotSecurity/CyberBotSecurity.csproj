@@ -8,15 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="audio\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="10.0.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="logo\chat-box.png">
+    <None Update="files\chat-box.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

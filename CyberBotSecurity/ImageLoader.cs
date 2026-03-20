@@ -13,7 +13,7 @@ namespace CyberBotSecurity
         public void Show()
         {
             //avoid putting aboslute path, use relative path instead
-            string imagePath = "logo/chat-box.png"; // Change to your image path
+            string imagePath = "files/chat-box.png"; // Change to your image path
             int width = 60; // Adjust as needed
             int height = 30; // Adjust as needed
 
